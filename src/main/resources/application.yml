@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: my-agent
+  ai:
+    openai:
+      api-key: ***REMOVED***
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+    chat:
+      memory:
+        dir: ${spring.application.name}/chatmemory
+  profiles:
+    active: local
