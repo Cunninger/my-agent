@@ -3,7 +3,7 @@ spring:
     name: my-agent
   ai:
     openai:
-      api-key: ***REMOVED***
+      api-key: sk-xxxxx
       base-url: https://api.deepseek.com
       chat:
         options:
